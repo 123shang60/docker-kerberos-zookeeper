@@ -1,0 +1,15 @@
+version: '3'
+services:
+  zookeeper:
+    hostname: kerberos.example.com
+    ports:
+      - "2181:2181"
+      - "8800:88"
+      - "7490:749"
+      - "2888:2888"
+      - "3888:3888"
+    volumes:
+      - zookeeper:/data
+    image: ssorriaux/kerberos-zookeeper:latest
+volumes:
+  zookeeper:
