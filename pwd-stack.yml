@@ -10,6 +10,6 @@ services:
       - "3888:3888"
     volumes:
       - zookeeper:/data
-    image: ssorriaux/kerberos-zookeeper:latest
+    image: 123shang60/kerberos-zookeeper:3.8.0
 volumes:
   zookeeper:
