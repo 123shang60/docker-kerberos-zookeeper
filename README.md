@@ -1,7 +1,7 @@
 # docker-kerberos-zookeeper
 Docker images for Zookeeper with Kerberos environment.
 
-[![Try in PWD](https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/StephenSorriaux/docker-kerberos-zookeeper/master/pwd-stack.yml)
+[![Try in PWD](https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/123shang60/docker-kerberos-zookeeper/master/pwd-stack.yml)
 
 ## How to use it
 The configured realm is "EXAMPLE.COM" where the kdc must be accessible througt "kerberos.example.com". To launch the container use:
